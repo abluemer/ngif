@@ -1,0 +1,6 @@
+<div>
+    <input type="text" (keyup)="onInputChange($event.target.value)" />
+    <p *ngIf="inputValue != ''">
+        Eingabe: {{ inputValue }}
+    </p>
+</div>
